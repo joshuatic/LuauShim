@@ -1,0 +1,48 @@
+# --- CLion / CMake ---
+.idea/
+cmake-build-*/
+CMakeSettings.json
+CMakeUserPresets.json
+build/
+
+# --- C++ Build Output(s) ---
+x64/
+x86/
+Debug/
+Release/
+ARM/
+ARM64/
+*.aps
+*.pdb
+*.ilk
+*.exp
+*.map
+*.ncb
+*.sdf
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.log
+*.obj
+*.res
+*.pch
+*.dll
+*.exe
+
+# --- C# / .NET Build Outputs ---
+bin/
+obj/
+*.pfx
+*.publishsettings
+[Dd]ebug/
+[Rr]elease/
+
+# --- Luau Specific / Temp ---
+*.temp
+include/deps/luau/build/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
